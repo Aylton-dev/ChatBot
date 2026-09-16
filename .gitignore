@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Variáveis de ambiente (IMPORTANTE: nunca subir com chaves)
+.env
+.env.local
+.env.*.local
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+
+# Diversos
+.cache/
+.parcel-cache/
+.next/
+out/
