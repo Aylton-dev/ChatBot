@@ -2,6 +2,7 @@ import {
 	getInitialMessage,
 	processMessage
 } from "../service/ChatService.js";
+import { ChatRequest } from "../models/ChatRequest.js";
 
 export function getChatInitialMessage(_request, response) {
 	response.status(200).json(getInitialMessage());
@@ -9,7 +10,8 @@ export function getChatInitialMessage(_request, response) {
 
 export async function postChatMessage(request, response) {
 	try {
-		const result = await processMessage(request.body?.message);
+		const chatRequest = ChatRequest.fromBody(request.body);
+		const result = await processMessage(chatRequest);
 		response.status(200).json(result);
 	} catch (error) {
 		const statusCode = error.statusCode || 500;

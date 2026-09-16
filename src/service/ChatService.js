@@ -1,21 +1,17 @@
 import { GoogleGenAI } from "@google/genai";
 import { getDados } from "../repository/DadosRepository.js";
+import { ChatResponse } from "../models/ChatResponse.js";
 
 const model = "gemini-3.5-flash";
 
 export function getInitialMessage() {
-	return {
-		message: "Ola! Posso ajudar com duvidas sobre os participantes do portfolio. O que voce gostaria de saber?"
-	};
+	return new ChatResponse(
+		"Ola! Posso ajudar com duvidas sobre os participantes do portfolio. O que voce gostaria de saber?"
+	);
 }
 
-export async function processMessage(message) {
-	if (typeof message !== "string" || !message.trim()) {
-		const error = new Error("A mensagem deve ser informada.");
-		error.statusCode = 400;
-		throw error;
-	}
-
+export async function processMessage(chatRequest) {
+	const message = chatRequest.message;
 	const dados = await getDados();
 	const dadosDoPortfolio = JSON.stringify(dados, null, 2);
 
@@ -36,5 +32,5 @@ export async function processMessage(message) {
 		contents: prompt
 	});
 
-	return { message: response.text };
+	return new ChatResponse(response.text);
 }
