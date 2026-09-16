@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"nome": "Ana Souza",
+		"cargo": "Desenvolvedora Front-end",
+		"localizacao": "Sao Paulo, SP",
+		"tecnologias": ["JavaScript", "React", "HTML", "CSS"],
+		"experiencia": "Desenvolvimento de interfaces web responsivas com JavaScript e React.",
+		"projetos": ["Portfolio de alunos", "Dashboard de indicadores"]
+	},
+	{
+		"id": 2,
+		"nome": "Bruno Lima",
+		"cargo": "Desenvolvedor Back-end",
+		"localizacao": "Curitiba, PR",
+		"tecnologias": ["JavaScript", "Node.js", "Express", "MongoDB"],
+		"experiencia": "Criacao de APIs REST com JavaScript, Node.js e Express.",
+		"projetos": ["API de cadastro de participantes", "Sistema de chat"]
+	}
+]
