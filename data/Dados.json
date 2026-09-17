@@ -1,20 +1,82 @@
 [
-	{
-		"id": 1,
-		"nome": "Ana Souza",
-		"cargo": "Desenvolvedora Front-end",
-		"localizacao": "Sao Paulo, SP",
-		"tecnologias": ["JavaScript", "React", "HTML", "CSS"],
-		"experiencia": "Desenvolvimento de interfaces web responsivas com JavaScript e React.",
-		"projetos": ["Portfolio de alunos", "Dashboard de indicadores"]
-	},
-	{
-		"id": 2,
-		"nome": "Bruno Lima",
-		"cargo": "Desenvolvedor Back-end",
-		"localizacao": "Curitiba, PR",
-		"tecnologias": ["JavaScript", "Node.js", "Express", "MongoDB"],
-		"experiencia": "Criacao de APIs REST com JavaScript, Node.js e Express.",
-		"projetos": ["API de cadastro de participantes", "Sistema de chat"]
-	}
+  {
+    "id": 1,
+    "nome": "Daniel",
+    "cargo": "Desenvolvedor Front-end",
+    "tecnologias": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+	  "React",
+	  "TypeScript",
+      "Git",
+      "GitHub",
+      "Design Responsivo"
+    ],
+    "experiencia": "Desenvolvimento de interfaces web responsivas, acessíveis e semanticamente estruturadas.",
+    "projetos": [
+      "Site Institucional para Escola",
+      "Plataforma de Aprendizagem Web",
+      "Ferramenta de Apoio à Leitura"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Felipe",
+    "cargo": "Desenvolvedor Back-end",
+    "tecnologias": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "APIs REST",
+      "Git",
+      "GitHub"
+    ],
+    "experiencia": "Desenvolvimento de sistemas web, APIs e integrações para soluções digitais.",
+    "projetos": [
+      "Dashboard de Indicadores Escolares",
+      "Plataforma de Aprendizagem Web",
+      "Sistema de Chat"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Edson",
+    "cargo": "QA Engineer",
+    "tecnologias": [
+      "Testes Funcionais",
+      "Testes de Usabilidade",
+      "JavaScript",
+      "TypeScript",
+      "Postman",
+      "Git",
+      "GitHub"
+    ],
+    "experiencia": "Execução de testes, identificação de problemas e validação da qualidade de sistemas e interfaces.",
+    "projetos": [
+      "Dashboard de Indicadores Escolares",
+      "Sistema de Chat",
+      "Ferramenta de Apoio à Leitura"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Elisson",
+    "cargo": "UI/UX Designer",
+    "tecnologias": [
+      "Figma",
+      "Prototipagem",
+      "Arquitetura da Informação",
+      "Design Responsivo",
+      "Acessibilidade",
+      "Pesquisa de Usuários"
+    ],
+    "experiencia": "Criação de interfaces intuitivas, protótipos e estruturas de navegação focadas na experiência do usuário.",
+    "projetos": [
+      "Site Institucional para Escola",
+      "Plataforma de Aprendizagem Web",
+      "Ferramenta de Apoio à Leitura"
+    ]
+  }
 ]
